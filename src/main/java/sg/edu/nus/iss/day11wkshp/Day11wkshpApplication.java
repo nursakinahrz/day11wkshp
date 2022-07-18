@@ -24,6 +24,7 @@ public class Day11wkshpApplication {
 		}
 
 		app.setDefaultProperties(Collections.singletonMap("server.port", port));
+		app.run(args);
 	}
 
 }
