@@ -30,3 +30,15 @@ the master is the main branch.
 12. so when typing git add . (you add to develop branch)
 
 13. git push -u origin develop (push to remote git develop branch)
+
+14. git checkout master 
+15. git merge develop (merge changes done in develop branch into master branch)
+
+16. git push -u origin master
+
+// make changes in master, and need to syn this change to develop branch
+// assume changes has already been checked into master branch
+
+git checkout develop
+git merge master (merge changes done in master branch into develop branch)
+git push -u origin develop
